@@ -5,7 +5,7 @@ import retrofit2.http.GET;
 
 public interface API {
 
-    @GET("")
+    @GET("daily_json.js")
     Call<Root> getData();
 
 }
